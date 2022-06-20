@@ -1,2 +1,2 @@
 # kokoa clone 2 update
-css got so much better !
+html and css are so much fun!
