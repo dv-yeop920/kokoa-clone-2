@@ -1,0 +1,53 @@
+@keyframes headerfadeins {
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    padding-top: 40px;
+    margin-bottom: 15px;
+    animation: headerfadeins 0.3s ease-in-out;
+
+}
+.screen__title {
+    font-size: 30px;
+    font-weight: 500;
+}
+.screen__icons span {
+    margin-left: 25px;
+}
+
+.screen-header h2 {
+    background-color: tomato;
+    display: flex;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 42px;
+}
+
+@keyframes rotategear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen__icons .fa-gear:hover {
+    animation: rotategear 1s linear infinite;
+}
+

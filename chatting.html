@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅방</title>
+</head>
+<body id="chatting-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <i class="fa-brands fa-apple"></i>
+            <!-- apple icon -->
+            <span>kakao talk</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+            <!-- wifi icon -->
+        </div>
+        <div class="status-bar__column">
+            <span>5월 17일 (화) </span>
+            <span>오후 7:57</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-1x"></i>
+            <!-- battery icon -->
+            <i class="fa-solid fa-bolt-lightning fa-xs"></i>
+            <!-- lightning icon-->
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chat.html">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Herry Kane</h1>
+        </div>
+        <div class="alt-header__column">
+            <span>
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span>
+                <i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen chatting">
+        <div class="chatting-timestamp">
+            <span>2022년,6월 2일,목요일</span>
+        </div>
+
+        <div class="message-row">
+            <img src="https://cdn.eyesmag.com/content/uploads/posts/2021/01/05/tottenhams-harry-kane-heung-min-son-1-5c4edcd0-3a29-4c29-b9cc-76efd0a7e106.jpg" />
+            <div class="message-row__content">
+                <span class="message__author">Herry Kane</span>
+                <div class="message__info">
+                    <span class="message__bubble">Congratulations on winning the Sonny , Golden Boots! 
+                        you are the best!
+                    </span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Thank you so much !!</span>
+                    <span class="message__time">21:40</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="   write a message... "/>
+            <i class="far fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>your screen is too big ㅠㅠ</span>
+    </div>
+
+<script src="https://kit.fontawesome.com/fa476553a2.js" 
+crossorigin="anonymous">
+</script>
+</body>
+</html>

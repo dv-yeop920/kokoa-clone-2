@@ -1,0 +1,44 @@
+@keyframes headerfadein {
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.alt-header {
+    margin-top: 20px;
+    padding: var(--horizontal-space);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: headerfadein 0.5s ease-in-out;
+}
+
+.alt-header__column {
+    width: 33%;
+}
+
+.alt-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alt-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.alt-header__column span:last-child {
+    margin-left: 20px;
+}
+
+
+
